@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "LunarSolarConverter.h"
 @interface ViewController ()
 
 @end
@@ -16,14 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UILabel *label = [UILabel new];
+    label.text = @"请前往控制台看打印";
+    label.textColor = [UIColor blackColor];
+    label.alpha = 0.8;
+    [label sizeToFit];
+    label.center = self.view.center;
+    [self.view addSubview:label];
+    
+    [LunarSolarConverter TestCalendar];
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end

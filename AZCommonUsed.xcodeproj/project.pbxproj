@@ -13,6 +13,9 @@
 		63AAA3C51FB157E7007A3C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AAA3C41FB157E7007A3C60 /* Assets.xcassets */; };
 		63AAA3C81FB157E7007A3C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63AAA3C61FB157E7007A3C60 /* LaunchScreen.storyboard */; };
 		63AAA3CB1FB157E7007A3C60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AAA3CA1FB157E7007A3C60 /* main.m */; };
+		63AAA3D41FB15816007A3C60 /* LunarSolarConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AAA3D31FB15816007A3C60 /* LunarSolarConverter.m */; };
+		63AAA3D71FB19426007A3C60 /* generate.htm in Resources */ = {isa = PBXBuildFile; fileRef = 63AAA3D51FB19426007A3C60 /* generate.htm */; };
+		63AAA3D81FB19426007A3C60 /* convert.html in Resources */ = {isa = PBXBuildFile; fileRef = 63AAA3D61FB19426007A3C60 /* convert.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		63AAA3C71FB157E7007A3C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63AAA3C91FB157E7007A3C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63AAA3CA1FB157E7007A3C60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63AAA3D21FB15815007A3C60 /* LunarSolarConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunarSolarConverter.h; sourceTree = "<group>"; };
+		63AAA3D31FB15816007A3C60 /* LunarSolarConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunarSolarConverter.m; sourceTree = "<group>"; };
+		63AAA3D51FB19426007A3C60 /* generate.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = generate.htm; sourceTree = "<group>"; };
+		63AAA3D61FB19426007A3C60 /* convert.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = convert.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +49,7 @@
 		63AAA3AF1FB157E6007A3C60 = {
 			isa = PBXGroup;
 			children = (
+				63AAA3D11FB157F3007A3C60 /* LunarSolar */,
 				63AAA3BA1FB157E6007A3C60 /* AZCommonUsed */,
 				63AAA3B91FB157E6007A3C60 /* Products */,
 			);
@@ -69,6 +77,17 @@
 				63AAA3CA1FB157E7007A3C60 /* main.m */,
 			);
 			path = AZCommonUsed;
+			sourceTree = "<group>";
+		};
+		63AAA3D11FB157F3007A3C60 /* LunarSolar */ = {
+			isa = PBXGroup;
+			children = (
+				63AAA3D21FB15815007A3C60 /* LunarSolarConverter.h */,
+				63AAA3D31FB15816007A3C60 /* LunarSolarConverter.m */,
+				63AAA3D61FB19426007A3C60 /* convert.html */,
+				63AAA3D51FB19426007A3C60 /* generate.htm */,
+			);
+			path = LunarSolar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +150,8 @@
 			files = (
 				63AAA3C81FB157E7007A3C60 /* LaunchScreen.storyboard in Resources */,
 				63AAA3C51FB157E7007A3C60 /* Assets.xcassets in Resources */,
+				63AAA3D81FB19426007A3C60 /* convert.html in Resources */,
+				63AAA3D71FB19426007A3C60 /* generate.htm in Resources */,
 				63AAA3C31FB157E6007A3C60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +166,7 @@
 				63AAA3C01FB157E6007A3C60 /* ViewController.m in Sources */,
 				63AAA3CB1FB157E7007A3C60 /* main.m in Sources */,
 				63AAA3BD1FB157E6007A3C60 /* AppDelegate.m in Sources */,
+				63AAA3D41FB15816007A3C60 /* LunarSolarConverter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
