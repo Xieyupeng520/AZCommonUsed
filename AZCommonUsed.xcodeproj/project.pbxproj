@@ -16,6 +16,10 @@
 		63AAA3D41FB15816007A3C60 /* LunarSolarConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AAA3D31FB15816007A3C60 /* LunarSolarConverter.m */; };
 		63AAA3D71FB19426007A3C60 /* generate.htm in Resources */ = {isa = PBXBuildFile; fileRef = 63AAA3D51FB19426007A3C60 /* generate.htm */; };
 		63AAA3D81FB19426007A3C60 /* convert.html in Resources */ = {isa = PBXBuildFile; fileRef = 63AAA3D61FB19426007A3C60 /* convert.html */; };
+		63B9AF8C1FB5C07F0098D09B /* FontGapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B9AF8B1FB5C07F0098D09B /* FontGapViewController.m */; };
+		63B9AF911FB5C0FA0098D09B /* iPhone 6s Plus - 2017-11-10 at 19.02.09.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B9AF8E1FB5C0FA0098D09B /* iPhone 6s Plus - 2017-11-10 at 19.02.09.png */; };
+		63B9AF921FB5C0FA0098D09B /* iPhone 8 Plus - 2017-11-10 at 18.50.23.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B9AF8F1FB5C0FA0098D09B /* iPhone 8 Plus - 2017-11-10 at 18.50.23.png */; };
+		63B9AF931FB5C0FA0098D09B /* iPhone 6s - 2017-11-10 at 19.00.21.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B9AF901FB5C0FA0098D09B /* iPhone 6s - 2017-11-10 at 19.00.21.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,11 @@
 		63AAA3D31FB15816007A3C60 /* LunarSolarConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunarSolarConverter.m; sourceTree = "<group>"; };
 		63AAA3D51FB19426007A3C60 /* generate.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = generate.htm; sourceTree = "<group>"; };
 		63AAA3D61FB19426007A3C60 /* convert.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = convert.html; sourceTree = "<group>"; };
+		63B9AF8A1FB5C07F0098D09B /* FontGapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontGapViewController.h; sourceTree = "<group>"; };
+		63B9AF8B1FB5C07F0098D09B /* FontGapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontGapViewController.m; sourceTree = "<group>"; };
+		63B9AF8E1FB5C0FA0098D09B /* iPhone 6s Plus - 2017-11-10 at 19.02.09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6s Plus - 2017-11-10 at 19.02.09.png"; sourceTree = "<group>"; };
+		63B9AF8F1FB5C0FA0098D09B /* iPhone 8 Plus - 2017-11-10 at 18.50.23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8 Plus - 2017-11-10 at 18.50.23.png"; sourceTree = "<group>"; };
+		63B9AF901FB5C0FA0098D09B /* iPhone 6s - 2017-11-10 at 19.00.21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6s - 2017-11-10 at 19.00.21.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +58,7 @@
 		63AAA3AF1FB157E6007A3C60 = {
 			isa = PBXGroup;
 			children = (
+				63B9AF891FB5C0210098D09B /* Font */,
 				63AAA3D11FB157F3007A3C60 /* LunarSolar */,
 				63AAA3BA1FB157E6007A3C60 /* AZCommonUsed */,
 				63AAA3B91FB157E6007A3C60 /* Products */,
@@ -88,6 +98,26 @@
 				63AAA3D51FB19426007A3C60 /* generate.htm */,
 			);
 			path = LunarSolar;
+			sourceTree = "<group>";
+		};
+		63B9AF891FB5C0210098D09B /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				63B9AF8D1FB5C0B80098D09B /* 字体默认留白 */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		63B9AF8D1FB5C0B80098D09B /* 字体默认留白 */ = {
+			isa = PBXGroup;
+			children = (
+				63B9AF901FB5C0FA0098D09B /* iPhone 6s - 2017-11-10 at 19.00.21.png */,
+				63B9AF8E1FB5C0FA0098D09B /* iPhone 6s Plus - 2017-11-10 at 19.02.09.png */,
+				63B9AF8F1FB5C0FA0098D09B /* iPhone 8 Plus - 2017-11-10 at 18.50.23.png */,
+				63B9AF8A1FB5C07F0098D09B /* FontGapViewController.h */,
+				63B9AF8B1FB5C07F0098D09B /* FontGapViewController.m */,
+			);
+			path = "字体默认留白";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +180,12 @@
 			files = (
 				63AAA3C81FB157E7007A3C60 /* LaunchScreen.storyboard in Resources */,
 				63AAA3C51FB157E7007A3C60 /* Assets.xcassets in Resources */,
+				63B9AF921FB5C0FA0098D09B /* iPhone 8 Plus - 2017-11-10 at 18.50.23.png in Resources */,
 				63AAA3D81FB19426007A3C60 /* convert.html in Resources */,
 				63AAA3D71FB19426007A3C60 /* generate.htm in Resources */,
+				63B9AF911FB5C0FA0098D09B /* iPhone 6s Plus - 2017-11-10 at 19.02.09.png in Resources */,
 				63AAA3C31FB157E6007A3C60 /* Main.storyboard in Resources */,
+				63B9AF931FB5C0FA0098D09B /* iPhone 6s - 2017-11-10 at 19.00.21.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +199,7 @@
 				63AAA3C01FB157E6007A3C60 /* ViewController.m in Sources */,
 				63AAA3CB1FB157E7007A3C60 /* main.m in Sources */,
 				63AAA3BD1FB157E6007A3C60 /* AppDelegate.m in Sources */,
+				63B9AF8C1FB5C07F0098D09B /* FontGapViewController.m in Sources */,
 				63AAA3D41FB15816007A3C60 /* LunarSolarConverter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
