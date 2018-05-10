@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		637FBC3C20A3F51F0017C074 /* UIView+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 637FBC3B20A3F51F0017C074 /* UIView+Custom.m */; };
 		63A24D1D1FBE8218005636C1 /* 6sp-more.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A24D1A1FBE8218005636C1 /* 6sp-more.png */; };
 		63A24D1E1FBE8218005636C1 /* 6s-more.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A24D1B1FBE8218005636C1 /* 6s-more.png */; };
 		63A24D1F1FBE8218005636C1 /* 8p-more.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A24D1C1FBE8218005636C1 /* 8p-more.png */; };
@@ -26,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		637FBC3A20A3F51F0017C074 /* UIView+Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Custom.h"; sourceTree = "<group>"; };
+		637FBC3B20A3F51F0017C074 /* UIView+Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Custom.m"; sourceTree = "<group>"; };
 		63A24D1A1FBE8218005636C1 /* 6sp-more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6sp-more.png"; sourceTree = "<group>"; };
 		63A24D1B1FBE8218005636C1 /* 6s-more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6s-more.png"; sourceTree = "<group>"; };
 		63A24D1C1FBE8218005636C1 /* 8p-more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8p-more.png"; sourceTree = "<group>"; };
@@ -61,9 +64,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		637FBC3820A3F4B90017C074 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				637FBC3920A3F4CA0017C074 /* 部分圆角 */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		637FBC3920A3F4CA0017C074 /* 部分圆角 */ = {
+			isa = PBXGroup;
+			children = (
+				637FBC3A20A3F51F0017C074 /* UIView+Custom.h */,
+				637FBC3B20A3F51F0017C074 /* UIView+Custom.m */,
+			);
+			path = "部分圆角";
+			sourceTree = "<group>";
+		};
 		63AAA3AF1FB157E6007A3C60 = {
 			isa = PBXGroup;
 			children = (
+				637FBC3820A3F4B90017C074 /* View */,
 				63B9AF891FB5C0210098D09B /* Font */,
 				63AAA3D11FB157F3007A3C60 /* LunarSolar */,
 				63AAA3BA1FB157E6007A3C60 /* AZCommonUsed */,
@@ -209,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63AAA3C01FB157E6007A3C60 /* ViewController.m in Sources */,
+				637FBC3C20A3F51F0017C074 /* UIView+Custom.m in Sources */,
 				63AAA3CB1FB157E7007A3C60 /* main.m in Sources */,
 				63AAA3BD1FB157E6007A3C60 /* AppDelegate.m in Sources */,
 				63B9AF8C1FB5C07F0098D09B /* FontGapViewController.m in Sources */,
